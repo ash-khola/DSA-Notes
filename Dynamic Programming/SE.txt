@@ -1,0 +1,359 @@
+1.) Iterative vs Adaptive:
+If we take the feedback from each of increments and accordingly make changes in future increments, then it becomes a little bit adaptive model. Whereas if you don't take the feedback from each of your increments and just keep building one increment and then another increment, then it’s more like a predictive model.
+
+1.) WaterFall model:
+In the waterfall method we put all of these software engineering processes one after the other in a logical sequence. 
+Assumptions:
+-----> First assumption is that we know the requirements very well and they won't change in future.
+-----> Second assumption is that team is experienced in building similar software.
+-----> Third assumption, is that the designers or the people who are coding understood the requirements really well. 
+
+Drawback:  
+Later we find the problem, the more costly it's going to be, than it would be than if found in earlier stages.
+It is predictive, our requirements are fixed and everyhting from design to implimentation is known clearly upfront.
+
+Advantage: 
+Very simple and easy to understand model.
+it's a very predictive model
+it's a very efficient process
+
+When to use ?
+The project or the product that you're working on is very predictable and it's a repeatable work, then waterfall model will be a decent fit for this kind of work.
+
+Cons: 
+1.) Not flexible for making changes. 
+2.) First release takes a long time.
+____________________________________________________________________________________________________________
+
+2.) V - Model
+This model is widely used to handle time crunch because sometimes deadline is looming and we need to deploy the software. In V-model, when we are making requirements, we start talking about your verification and validation. We start preparing for how we are going to do verification and validation when we are in the requirements phase. So what it basically means is that we are adaptive in introducing the testing activities related to the testing phase earlier in the model. 
+the basic idea behind V-model is that there is a lot of emphasis on the validation earlier in the process
+It a predictive method.
+Pros:
+It provides earlier detection of potential defects and the issues. 
+
+Cons:
+It requires more upfront work because during the requirement phase, we are also going to talk about the validation of those requirements
+Note:
+If there is ambiguity in the requirements, and then you want some kind of early validation, would help, then you can use V-model.
+_____________________________________________________________________________________________________________
+
+
+3.) Sashimi model:
+Sashimi Model the idea is allow us to overlap the different phases of software development lifecycle.
+We don't have to wait for the previous phase to finish for you to start your existing phase. We can overlap our phase so much so that sometimes we can have even more than one phase be overlapping.
+Not 100% predctive because if we are learning than we can still fix our requirements, so there is a scope of of adaptability, but still it's primarily a predictive model.
+
+Pros:
+If you want to shorten your development time.
+People with different skills can start working on the project without waiting for the work done for the previous phase
+
+Cons:
+it may result in some rework because we started the design before all the requirements were done. 
+
+Where to use?
+If you want to shorten your time scale, then you could potentially use this model.
+If you have all the resources available, and we want them to get started on the project soon, then also we can use this model.
+______________________________________________________________________________________________________________
+4.) Increments Models:
+In incremental model instead of building the whole application in one shot, We build in increments. So we can still use out waterfall steps, but only for that particular increment. 
+So once the first increment is ready, you can start with the next increment and then once the second increment is done, then you can start with the third increment. And then of course you can overlap these different increments as well.
+
+Predictive or Adaptive?
+It depends on how much overlap is there and how much feedback from one increment you apply to the next increment. So, if we don't apply any feedback from one increment to another increment and we just keep building, then it's more towards the predictive model. But if we apply the feedback from one increment another one, it goes towards the adaptive model.
+
+Pros:
+1.) We deliver value early, in those cases where that increment delivers value to the customers. 
+2.) We can actually get feedback from one increment and apply that feedback to the future increments. So that's another benefit of this model.
+
+Cons:
+It may result in a rework. So, since you didn't know all the requirements up front and you started doing the requirements of the next increment later on, you may end up doing extra work in increment 2, or increment 3, or future increments>
+
+Where do you use this model? 
+1.) If the organization can benefit from early delivery of part of the application or part of the product. 
+2.) Also if the feedback from one increment can be applied to the future increments, then again this model will be very useful.
+
+Increments Models different Version -1:
+One of the variation is where we do all our requirements in one phase, so you don't do the requirements in each phase. So in this way, you will know all of your requirements in one shot and so, hopefully it will decrease your rework but then it will make this model a little bit more predictive. 
+
+Increments Models different Version -2:
+In this version we do our requirements in one shot. Then we do the complete design of the system. And then the only part that we increment is from implementation to the deployment.
+
+#################################################################
+
+Iterative Models - (Two models discussed)
+
+1.) Unified Process Models:
+It is very different than the other models. In this, it's divided into two axis, or not divided, but it has two dimensions. The top dimensions, the x axis, it defines certain phases or the steps like Inception, Elaboration, Construction and Transition. 
+And then the software development process on the Y axis.
+
+Characteristics of this model:
+1.) The first one is that although it is called a unified process, it's not really a well defined process, it's a framework.
+2.) And the second is that, It kind of identifies or signifies that every step requires all of these different software processes, Design, Implementation, Test. 
+3.) The third one is that it is very architecture centric. So, during the Elaboration phase, we spent quite a bit of effort on the architecture. We have to make sure that we have the executable architecture. 
+
+Predictive or Adaptive:
+This model is very much into the adaptive arena, and of course, not quite there, but still quite a bit on the adaptive side. 
+
+Pros:
+1.) It's a very adaptive process during the Construction phase, or even Inception or Elaboration phases, you can adjust quite a bit. 
+2.) Quality and Reuse
+3.) Focus on risk mitigation and increase chances of success
+4.) Flexible to incorporate other software dev. models.
+
+Cons:
+1.) It's not a very straight forward process. We have a lot of steps, an increment, iterations. And so, it's a little bit of a complicated process.
+2.) Need more resources 
+3.) For a smaller project it might be a lot of overhead.
+
+Where to use?
+If we have a bigger and riskier project, than this framework would really help. 
+
+
+2.) Spiral Model:
+It's a risk-driven approach,
+So it's a cyclic process but each of those cycles actually has four basic steps. So we determine the objectives as your first step, like what do you want to achieve in that particular cycle. Then you identify and resolve risks, and then you develop based on what we need for your objectives. And then you plan for next iteration. So that's kind of the basic idea behind each of these cycles.
+
+Step 1.)  Determine objectives. In this step you define what exactly would be the objective for this cycle.
+Step 2.) Identifying and resolving risk. The whole step is primarily focused on risk, what can go wrong. Not only just identify, but then find ways to mitigate or do something about those risks.
+Step 3.) In this step we do the actual work to meet our objectives. If you're doing a feasibility study then we do our feasibility study, or if we are doing requirements, then we write those and so on. 
+
+Characteristics:
+This model gives a lot of emphasis on the risks. We identify and resolve risk as primary step of this process.
+The effort and the detail are driven by the risk. 
+Another attribute of this model is  it's not really a very defined or a step by step process but it is a process model generator. So we actually use other models wherever appropriate to execute.
+
+Predictive or Adaptive?
+It's very much on the adaptive cycle because in every cycle you look at what we have done and then we can adapt to what is the next goal or what do we want to achieve next. So it's very much on the adaptive side.
+
+Pros:
+1.) It's very adaptive.
+2.) The focus on the risk increases the chance of success of your product.
+3.) We have flexibility of using any software development model.
+
+Cons:
+1.) It is a very complicated model.
+2.) It definitely costs more to manage.
+
+Where do you use this model?
+For a very large high risk project, a spiral model would be a good fit for those kind of projects.
+
+##############################################################################
+
+Agile Mindset:
+
+Challenges that the software industry was facing that led to the emergence of agile midset? 
+1.) The first one was in the verification phase where we put all the components together and we try to find out whether the system is working as expected, but were a lot of unexpected issues during that phase. Also the software systems are very complex, and to predict how different components are going to interact with each other and how they're going to behave is very difficult. And since these defects were found very late in the process, it was very expensive to fix.
+
+2.) Then another problem they were finding was after the software is developed and deployed, the users were using the system and they were saying this is not what they were expecting, or this is not what they need, this doesn't work for them. And the clients were saying well, they invested so much money or so much time in building the software and not getting the benefit that they predicted.
+
+3.) The designer thinks actually user needed this, right? So, they interpreted the requirements incorrectly.
+
+4.) Another reason for this problem could be the market shift. So when we were writing the requirements, the needs were correctly identified, that this is what the user needs. 
+But by the time, by the long journey of software development, after we have done development, the market has shifted and the user doesn't need this anymore.
+
+Agile Manifesto and Principles
+We have come to 4 values that are - 
+1.) Value individuals and interactions over process and tools, 
+2.) Working software over comprehensive documentation.
+3.) Customer collaboration over contract negotiation
+4.) Responding to change over following a plan.
+
+12 Principles are:
+1.) Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+2.) Welcome changing requirements even late in development.
+3.) Deliver working software frequently.
+4.) Business people and developers must work together.
+5.) Build projects around motivated individuals.
+6.) face-to-face conversation within team.
+7.) Working software is a primary measure of progress
+8.) Agile processes promote sustainable development.
+9.) Continuous attention to technical excellence and good design enhances agility. It means that if you have technical excellence then pay attention to your design.
+10.) Tenth one is simplicity. The art of showing the amount of work not done is essential.
+11.) Trying to encourage team members to work on the software rather than unorganized way of communication. 
+12.) At regular intervals, the team reflects on how to become more effective, then tunes and adapts its behavior accordingly. This one talks about continuous improvement. 
+
+Problems does Agile bring:
+
+1.) The first one is, since we embrace change and we only look at part of the system to design. Sometimes the architecture, the design and the database modeling is very challenging. And since there is always this change, do you feel lack of control? 
+
+2.) And there is a little bit of unpredictability in what you're building. And that makes leaders of the organization a little bit uncomfortable. 
+
+3.) And then another one is that since the customer has to be involved throughout the process. They have to spend a little bit more time on the system.
+
+Types of Agile Frameworks:
+1.) One of the most common one is called Scrum. 
+2.) Another popular one is called Kanban which is based on a continuous flow model where you basically try to optimize your existing software development process. 
+3.) There is a combination of these two called Scrumban where you use Scrum as your primary framework and then you use Kanban to optimize your flow within your sprint. 
+4.) Another one popular which is similar to Scrum is called XP.
+5.) Then, of course, there is the hybrid of a Scrum and XP. 
+6.) Another one which has become quite popular recently is called Lean Startup which helps you if you have a lot of unpredictable market or industry and you want to really prove your solution before you implement it. So Lean Startup helps you in that area and there are many more.
+
+1.) Scrum  Components:
+
+1.) There are three goals in Scrum: Scrum Master, the team, and the product owner. 
+2.) There are a couple of rituals like: Sprint Planning Meeting, Daily Scrum Meeting, Sprint Review, and a Sprint Retrospective. 
+3.) And there are some artifacts like: Product Backlog, Sprint Backlog and Burndown Chart.
+
+-----> First one is product owner - who defines what needs to be done and in what order. 
+-----> The Scrum master that helps the team stay true to the Scrum values and principles. And also helps facilitate most of the meetings in the team, and helps removing roadblocks in various phases.
+-----> The team includes developers and testers and everyone and do most of the building of the software.
+
+
+ In Scrum, we work in one to four week iterations
+ Scrum master that helps the team stay true to the Scrum values and principles. And then we will also notice that Scrum master helps facilitate most of the meetings in the team.
+
+2.) Kanban Technique
+Which is a practice that was borrowed from Toyota's production system. And basically, helps teams optimize their software development process. 
+Kanban is a popular framework used to implement agile and DevOps software development. It requires real-time communication of team and full transparency of work. 
+six rules for the effective application of Kanban:
+1) Never pass on defective products
+2) Take only what is needed
+3) Produce the exact quantity required
+4) Level the production
+5) Fine-tune production
+6) Stabilise and rationalise the process.
+
+Pros and Cons of Agile mindset:
+Pros:
+Adaptive in nature
+Agile and Lean are very flexible to change. And that basically increases the chance of building the right product because we are constantly looking and getting feedback and pivoting based on your learning.
+
+Cons:
+We don't know everything about what you're about to build. And you architect it in a certain way and then when you start building, it may result in a rework because you didn't know everything upfront as it may result in rework. And then of course, since you are iteratively building it,you require very close collaboration with your clients and your user
+
+Where do we use agile and Lean?
+If there is a probability that the requirements may change over time, 
+then Agile and Lean would be a good fit. Or if we are playing with the technology that is unknown and unproven or we haven't used this, so again there is a lot of learning involved. 
+So in both cases, when there is learning involved during the development.
+
+
+
+________________________________________________________________________________
+
+Testing: Testing is the process of executing a program with the intent of finding errors.
+
+1.) Black Box Testing is also known as behavioral, opaque-box, closed-box, specification-based or eye-to-eye testing.
+It is a Software Testing method that analyses the functionality of a software/application without knowing much about the internal structure/design of the item that is being tested and compares the input value with the output value.
+The main focus in Black Box Testing is on the functionality of the system as a whole. 
+2.) White Box Testing: Here we test by looking at the code to try and find areas where programmers are likely to make mistakes.
+
+Types of BBT:
+1.) Functional Testing: It is done to verify all the functionality of an application
+	Smoke Testing
+	Sanity Testing
+	Integration Testing
+	System Testing
+	Regression Testing
+	User Acceptance Testing
+
+2.) Non-Functional Testing: It is done to verify non - functional requirements.
+	Usability Testing
+    Load Testing
+    Performance Testing
+    Compatibility Testing
+    Stress Testing
+    Scalability Testing
+
+
+# Black Box Testing Techniques:
+1. Equivalence Partitioning
+2. Boundary Value Analysis
+3. Decision Table Testing
+4. State Transition Testing
+5. Error Guessing
+6. Graph-Based Testing Methods
+7. Comparison Testing
+
+1.Equivalence Partitioning:
+    In this method, the input domain data is divided into different equivalence data classes.
+    This method is typically used to reduce the total number of test cases to a finite set of
+    testable test cases, still covering maximum requirements.
+
+2) Boundary Value Analysis
+    In this technique we focus on the values at
+    boundaries as it is found that many applications have a high amount of issues on the
+    boundaries.
+
+3) Decision Table Testing
+    Testing the system behavior for different input combinations, This is a systematic
+    approach where the different input combinations and their corresponding system
+    behavior are captured in a tabular form.
+
+_____________________________________________________________________________________________
+Unit Testing 
+Unit testing is usually performed by a developer who writes different code units that 
+could be related or unrelated to achieve a particular functionality.
+
+Smoke testing : Testing that is done after each build is released to test to ensure build 
+stability ( Are core functionalities are working fine or not ?). It is also called as build 
+verification testing.
+Smoke testing is always done on initial version of builds.
+
+Sainity Testing : If a build is added with a new functionality then rather then testing whole 
+build lets quickly check the stability of new build by performing sainity testing on newly 
+added feature only.
+
+Regression testing : Testing performed to ensure that adding new code, enhancements, 
+fixing of bugs is not breaking the existing functionality or causing any instability and still 
+works according to the specifications.
+
+Integration testing : When the system relies on multiple functional modules that might 
+individually work perfectly, but have to work coherently when clubbed together to achieve 
+an end to end scenario, validation of such scenarios is called Integration testing.
+
+Beta testing : Product is exposed to the actual customer in a production like an 
+environment and they test the product. The user’s comfort is derived from this and the 
+feedback is taken.
+_____________________________________________________________________________________________
+
+
+Dynamic Testing:
+Dynamic Testing is a type of Software Testing which is performed to analyze the dynamic behavior of the code. It includes the testing of the software for the input values and output values that are analyzed.
+
+-----> We judge how mature the code is by how many of the tests pass.
+
+
+Halstead’s metrics are included in a number of current commercial tools that count software
+lines of code. By counting the tokens and determining which are operators and
+which are operands, the following base measures can be collected :
+n1 = Number of distinct operators.
+n2 = Number of distinct operands.
+N1 = Total number of occurrences of operators.
+N2 = Total number of occurrences of operands.
+In addition to the above, Halstead defines the following :
+n1* = Number of potential operators.
+n2* = Number of potential operands.
+Halstead refers to n1* and n2* as the minimum possible number of operators and
+operands for a module and a program respectively. 
+
+Halstead metrics –
+Halstead metrics are :
+
+1.) Halstead Program Length
+2.) Program Difficulty D = (n1 / 2) * (N2 / n2)
+3.) Program Volume
+4.) Program Level
+5.) Language Level
+6.) Intelligence Content
+7.) Programming Time
+8.) Programming Effort
+
+Advantages of Halstead Metrics:
+● It is simple to calculate.
+● It measures overall quality of the programs.
+● It predicts the rate of error.
+● It predicts maintenance effort.
+● It does not require the full analysis of programming structure.
+● It is useful in scheduling and reporting projects.
+● It can be used for any programming language.
+Disadvantages of Halstead Metrics:
+● It depends on the complete code.
+● It has no use as a predictive estimating model
+
+############################################################################################################################
+
+------> LCOM4 measures the number of "connected components" in a class. A connected component is a 
+        set of related methods (and class-level variables). There should be only one such a component in 
+        each class. If there are 2 or more components, the class should be split into so many smaller 
+        classes.
